@@ -5,6 +5,33 @@ body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.nav-list {
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #d3d3d3;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+}
+
+.nav-list ul li button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-list ul li button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
 .product {
     width: 600px;
     margin: 5em auto;
