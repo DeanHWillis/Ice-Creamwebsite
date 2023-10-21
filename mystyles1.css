@@ -6,21 +6,27 @@ body {
 }
 
 .nav-list {
-    width: 200px;
+    width: 100%;
     margin: 20px auto;
     padding: 10px;
     background-color: #d3d3d3;
 }
 
-.nav-list ul li {
+.nav-list ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-list ul li {
+    display: inline-block;
 }
 
 .nav-list ul li button {
     display: block;
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -31,6 +37,7 @@ body {
 .nav-list ul li button:hover {
     background-color: #45a049; /* Darker green */
 }
+
 
 .product {
     width: 600px;
