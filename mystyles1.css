@@ -91,6 +91,11 @@ a:link, a:visited {
     height: 200px; 
     margin: 10px; 
 }
+.ice-cream-image2{
+    width: 250px;
+    height:200px;
+    margin:10px;
+}
 
 .purchace-button {
     width: 200px; 
