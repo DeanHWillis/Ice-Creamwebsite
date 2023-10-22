@@ -1,7 +1,5 @@
 body {
     background-color: #f0f0f2; /* Sets the background color of the body */
-    margin: 0;
-    padding: 0;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #about123{ /* Adds a margin of 50px around the element with id="about123" */
@@ -52,7 +50,7 @@ body {
 }
 
 .nav-list button:hover {
-    background-color: #A9A9A9; /* Darker green */
+    background-color: #A9A9A9; /* Dark gray */
 }
 
 .product {
