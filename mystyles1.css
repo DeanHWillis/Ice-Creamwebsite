@@ -1,13 +1,13 @@
 body {
-    background-color: #f0f0f2;
+    background-color: #f0f0f2; /* Sets the background color of the body */
     margin: 0;
     padding: 0;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#about123{ 
+#about123{ /* Adds a margin of 50px around the element with id="about123" */
     margin:50px;
 }
-.product {
+.product { /*puts a box around the products*/
     width: 600px;
     margin: 5em auto;
     padding: 2em;
@@ -15,18 +15,6 @@ body {
     border-radius: 0.5em;
     box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
     text-align:center;
-}
-
-a:link, a:visited {
-    color: #38488f;
-    text-decoration: none;
-}
-
-@media (max-width: 700px) {
-    .product {
-        margin: 0 auto;
-        width: auto;
-    }
 }
 
 .ice-cream-image {
